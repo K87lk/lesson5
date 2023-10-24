@@ -50,16 +50,4 @@ public class Product {
         return sb.toString();
     }
 
-    public static Map<Integer, Product> getProducts() {
-        Map<Integer, Product> products = new HashMap<>();
-        products.put(1, new Product("Cucumber", "SPB", 140));
-        products.put(2, new Product("Potato", "MSK", 340));
-        products.put(3, new Product("Tomato", "BLG", 123));
-        products.put(4, new Product("Apple juice. 1L", "KHV", 34));
-        products.put(5, new Product("Ice-cream", "KZN", 2));
-        products.put(6, new Product("Tomato", "UZB", 45));
-        products.put(7, new Product("Coffee. 200g", "IND", 2));
-        return products;
-    }
-
 }
